@@ -1,0 +1,114 @@
+﻿.page {
+	left: 0px;
+	top: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	background-image: url('Shadowrun Charbogen Mitte.png');
+	background-repeat: repeat-y;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	page-break-after: always;
+}
+.page .pageheader {
+	background-image: url('Shadowrun Charbogen Kopf.png');
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 1003px;
+	min-height: 143px;
+	top: 0px;
+	left: 0px;
+	padding-top: 152px;
+}
+.page .pagefooter {
+	background-image: url('Shadowrun Charbogen Fuß.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	margin-left: 0px;
+	margin-top: 0px;
+	left: 0px;
+	top: 0px;
+	width: 1003px;
+	min-height: 107px;
+	padding-bottom: 49px;
+}
+.volleBreite {
+	background-color: #FFFFFF;
+	width: 933px;
+	left: 34px;
+	position: relative;
+	margin-bottom: 7px;
+}
+.volleBreiteTrans {
+	margin: 0px -7px 0px -7px;
+	width: 933px;
+	left: 34px;
+	position: relative;
+	border-spacing: 7px;
+	border-collapse: collapse;
+}
+.volleBreiteSub {
+	background-color: #FFFFFF;
+	width: 100%;
+}
+td {
+	vertical-align: top;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+tfoot td {
+	background-color: #5F6377;
+	font-style: italic;
+	font-variant: normal;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold" , sans-serif;
+	font-weight: normal;
+	font-size: smaller;
+	padding-left: 15px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+th {
+	text-transform: uppercase;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold" , sans-serif;
+	font-size: larger;
+	background-image: url('Shadowrun Charbogen Box Kopfzeile.png');
+	background-repeat: repeat-x;
+	height: 30px;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 2px;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+}
+.input {
+	border-style: none solid solid solid;
+	border-color: #FFFFFF #FFFFFF #000000 #FFFFFF;
+	border-bottom-width: 2px;
+	border-right-width: 4px;
+	border-left-width: 4px;
+}
+.schadenskasten {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-weight: lighter;
+	font-style: normal;
+	text-align: right;
+	vertical-align: bottom;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	empty-cells: show;
+	width: 40px;
+	height: 40px;
+	font-size: small;
+}
+.kommentartext {
+	text-align: left;
+	vertical-align: top;
+	font-size: xx-small;
+	font-weight: lighter;
+}
